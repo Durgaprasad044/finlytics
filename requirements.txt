@@ -1,0 +1,34 @@
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.1.0
+joblib>=1.1.0
+nltk>=3.7
+Pillow>=9.0.0
+opencv-python>=4.6.0
+pytesseract>=0.3.10
+
+# FastAPI and web server dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Receipt processing dependencies
+easyocr>=1.7.0
+google-cloud-vision>=3.4.0
+boto3>=1.29.0
+python-dateutil>=2.8.0
+
+# Database and async support
+aiofiles>=23.2.0
+asyncio-mqtt>=0.13.0
+python-dotenv>=1.0.0
+
+# Additional ML and AI dependencies
+prophet>=1.1.4
+scipy>=1.11.0
+torch>=2.0.0
+transformers>=4.30.0
